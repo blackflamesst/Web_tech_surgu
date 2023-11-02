@@ -1,0 +1,47 @@
+*,
+*::before
+*::after {
+  box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+//________________________________
+body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark);
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 28px;
+  @media screen and (max-width: $md) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: $md) {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 40px;
+  @media screen and (max-width: $md) {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+}
+
+//___________________________________________
