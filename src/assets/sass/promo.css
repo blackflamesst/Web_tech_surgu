@@ -1,0 +1,25 @@
+.promo {
+  margin-bottom: 65px;
+}
+.promo p {
+  margin-bottom: 262px;
+}
+.promo h1 span {
+  color: #FFA239;
+}
+.promo .promo-bg {
+  height: 628px;
+  background: url("../../img/bg.png") center no-repeat;
+  background-size: contain;
+}
+.promo .promo__list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.promo .promo__list li:last-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=promo.css.map */

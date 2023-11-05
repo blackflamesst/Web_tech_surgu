@@ -1,0 +1,32 @@
+.navigation {
+  padding-top: 38px;
+  margin-bottom: 72px;
+}
+
+.navigation__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .navbar{
+    padding-top: 35px;
+    padding-bottom: 0;
+}*/
+.navigation__list {
+  display: flex;
+  align-items: center;
+  grid-gap: 39px;
+}
+
+.navigation__list-item a {
+  font-weight: 500;
+  color: var(--dark);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navigation__list-item a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=navigation.css.map */

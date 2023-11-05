@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* Стили для блока с обратной связью*/
+.feedback {
+  margin-bottom: 100px;
+}
+.feedback__text {
+  text-align: right;
+  margin-right: 37px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feedback__text h2 {
+  margin-bottom: 0;
+}
+.feedback__text p {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.form {
+  background: white;
+  box-shadow: var(--box-shadow);
+  border-radius: 15px;
+  padding: 24px;
+}
+.form label {
+  display: block;
+}
+.form textarea, .form input {
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid #D9E2EB;
+  border-radius: 10px;
+  min-height: 40px;
+  overflow: hidden;
+  outline: none;
+  width: 100%;
+}
+.form textarea::placeholder, .form input::placeholder {
+  color: #8A99AB;
+}
+.form__group {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.button-primary {
+  padding: 9px 60px;
+  background: linear-gradient(90deg, #FB8501 -0.07%, #FFB703 100%);
+  border: none;
+  border-radius: 10px;
+  transition: box-shadow 300ms, transform 100ms;
+}
+.button-primary:focus {
+  transform: scale(0.95);
+}
+.button-primary:hover {
+  box-shadow: 0 0 10px 0 #FFB003;
+}
+
+/* Конец Стили для блока с обратной связью*/
+
+/*# sourceMappingURL=feedback.css.map */
